@@ -6,16 +6,19 @@ import { AppComponent } from './app.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ButtonModule} from 'primeng/button';
+import {TieredMenuModule} from 'primeng/tieredmenu';
+import { LayoutComponent } from './layout/layout.component';
+import { FoodComponent } from './layout/food/food.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFontAwesomeModule,
     BrowserAnimationsModule,
-    ButtonModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
