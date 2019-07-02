@@ -10,6 +10,7 @@ import {TieredMenuModule} from 'primeng/tieredmenu';
 import { LayoutComponent } from './layout/layout.component';
 import { FoodComponent } from './layout/food/food.component';
 import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
