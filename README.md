@@ -1,4 +1,5 @@
 # Onetime
+UI - [![Build Status](https://dev.azure.com/TimeStrong/kasunysoft/_apis/build/status/Kasunjith-Bimal.TimeStone?branchName=master)](https://dev.azure.com/TimeStrong/kasunysoft/_build/latest?definitionId=1&branchName=master)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
