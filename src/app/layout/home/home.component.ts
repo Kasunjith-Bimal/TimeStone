@@ -30,5 +30,6 @@ export class HomeComponent implements OnInit {
     this.images1.push({source:'assets/images/cloth/galleria5.jpg', alt:'M', title:'Cloths'});
     this.images1.push({source:'assets/images/cloth/galleria6.jpg', alt:'J', title:'Cloths'});
   }
+  
 
 }

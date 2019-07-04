@@ -3,14 +3,17 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing';
 import { HomeComponent } from './home.component';
 import {GalleriaModule} from 'primeng/galleria';
+import {CardModule} from 'primeng/card';
 
+ 
 
 
 @NgModule({
     imports: [
         CommonModule,
         HomeRoutingModule,
-        GalleriaModule
+        GalleriaModule,
+        CardModule
     ],
     declarations: [
         HomeComponent

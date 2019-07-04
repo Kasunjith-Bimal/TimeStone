@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SlidebarComponent } from './components/slidebar/slidebar.component';
 
 
+
 @NgModule({
     imports: [
         CommonModule,
@@ -17,6 +18,7 @@ import { SlidebarComponent } from './components/slidebar/slidebar.component';
         LayoutComponent,
         HeaderComponent,
         SlidebarComponent,
+
     ]
 })
 export class LayoutModule {}
