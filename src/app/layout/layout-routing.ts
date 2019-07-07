@@ -9,7 +9,7 @@ const routes: Routes = [
         children: [
             { path: '', redirectTo: 'home', pathMatch: 'prefix' },
             { path: 'home', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) }, 
-            { path: 'vechical', loadChildren: () => import('./vechical/vechical.module').then(m => m.VechicalModule) }    
+            { path: 'vehicle', loadChildren: () => import('./vehicle/vehicle.module').then(m => m.VehicleModule) }    
         ]
     }
 ];
